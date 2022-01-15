@@ -1,0 +1,133 @@
+/* ------------
+fonts
+-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*-----------
+common styles
+-------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.heading-1{
+    display: flex;
+    padding: 5%;
+}
+.start-journey{
+    font-size: 50px;
+}
+/*----------
+ link button
+ ------------ */
+.link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+}
+.fetured-1{
+    display: flex;
+}
+/*-----------
+   immags
+------------- */
+.half-width{
+    width: 50%;
+    padding: 5%;
+
+}.half-width img{
+    width: 70%;
+}
+/*----------------
+ photo frame hover
+ ----------------- */
+.photo-frame:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+/* logos */
+.logos{
+    padding-left: 100px;
+}
+
+.popular-collection{
+    text-align: center;
+}
+/*-------------
+ product style
+ -------------- */
+ .product-lists{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 5%;
+     padding: 5px;
+ }
+ .product-list .product-banner img{
+     width: 250px;
+     height: 150px;
+     left: 196px;
+     top: 935px;
+
+ }
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .fa-star{
+     font-size: 12px;
+ }
+ .fa-star.filled{
+     color: #ffc014;
+
+ }
+ .fa-star{
+     color: #aeaeae;
+
+ }
+ .product-tag{
+     text-decoration: none;
+     color: #E02C6D;
+     padding-left: 700px;
+ }
+ #Featured-Blog{
+     width: 400px;
+     height: 400px;
+     border-radius: 20px;
+ }
+ footer{
+     text-align: center;
+     color: white;
+     background-color: black;
+     border-radius: 5px;
+     
+ }
+ /* --------------
+    Mobile device
+ ------------------- */
+
+ /* @media only screen and (max-width: 688px){
+    .fetured-1, .product-lists{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fetured-1{
+        flex-direction: column;
+    }
+     
+ } */
+
+ /* --------------------
+       Tablet device
+ --------------------- */
+/* @media only screen and (man-width: 688px) and (max-width: 992px) {
+    .fetured-1, .product-lists{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fetured-1{
+        flex-direction: column;
+    }
+    
+} */
+
+ 
